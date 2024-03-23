@@ -1,18 +1,19 @@
-In this lab, you will be using the Sakila database of movie rentals. You can follow the steps listed here to get the data locally: Sakila sample database - installation. You can work with two sql query files - sakila-schema.sql (creates the schema) + sakila-data.sql which inserts the data.
+In this lab, you will be using the Sakila database of movie rentals. You can follow the steps listed here to get the data locally: Sakila sample database - installation.
 
-The ERD is pictured below - not all tables are shown, but many of the key fields you will be using are visible:
-
-
-DB schema
+The database is structured as follows: DB schema
 
 
 
 
 Instructions
-Use sakila database.
-Get all the data from tables actor, film and customer.
-Get film titles.
-Get unique list of film languages under the alias language. Note that we are not asking you to obtain the language per each film, but this is a good time to think about how you might get that information in the future.
-5.1 Find out how many stores does the company have?
-5.2 Find out how many employees staff does the company have?
-5.3 Return a list of employee first names only?
+Select all the actors with the first name ‘Scarlett’.
+Select all the actors with the last name ‘Johansson’.
+How many films (movies) are available for rent?
+How many films have been rented?
+What is the shortest and longest rental period?
+What are the shortest and longest movie duration? Name the values max_duration and min_duration.
+What's the average movie duration?
+What's the average movie duration expressed in format (hours, minutes)?
+How many movies longer than 3 hours?
+Get the name and email formatted. Example: Mary SMITH - mary.smith@sakilacustomer.org.
+What's the length of the longest film title?
